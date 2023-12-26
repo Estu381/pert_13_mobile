@@ -97,7 +97,6 @@ class _ImageUploadWidgetState extends State<ImageUploadWidget> {
                 controller: _descriptionController,
                 decoration: InputDecoration(labelText: 'Description'),
               ),
-              //
               SizedBox(height: 20),
               ElevatedButton(
                 onPressed: _uploadImage,
